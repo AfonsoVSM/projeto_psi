@@ -10,7 +10,7 @@
 
 
 @section('conteudo')
-<h1>Bla bla bla</h1>
+<h1>Contactos:</h1>
 <form al method="post" action="{{route('processar.form')}}">
     @csrf
     <label for="nome"><h1>Nome</h1></label>

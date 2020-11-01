@@ -10,7 +10,8 @@
 
 
 @section('conteudo')
-<h1>Bli bli bli</h1>
+<h1>Onde estamos:</h1>
+<img src="img/localizacao.jpg" class="img-fluid" alt="Imagem responsiva">
 
 @endsection
 

@@ -55,7 +55,7 @@
         <h1 class="display-3">Especialista na criação de sites</h1>
             
         <p>Lojas online & Marketing digital</p>
-            <p><a class="btn btn-primary btn-ig" href="sm.html"role="button">Saiba mais&raquo;</a> </p>
+             </p>
               <br>
                  <br>
         </div>

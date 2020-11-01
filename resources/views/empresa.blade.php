@@ -10,7 +10,8 @@
 
 
 @section('conteudo')
-<h1>ble ble ble</h1>
+<h1>Empresa:</h1>
+<img src="img/1.jpg" class="img-fluid" alt="Imagem responsiva">
 
 @endsection
 
