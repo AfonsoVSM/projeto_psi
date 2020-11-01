@@ -17,4 +17,16 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('login','App\Http\Controllers\FormController@loginForm')->name('login.form');
+Route::get('noticias','App\Http\Controllers\FormController@noticiasForm')->name('noticias.form');
+
+Route::get('contactos','App\Http\Controllers\FormController@contactosForm')->name('contactos.form');
+
+Route::get('empresa','App\Http\Controllers\FormController@empresaForm')->name('empresa.form');
+
+Route::get('ondeestamos','App\Http\Controllers\FormController@ondeestamosForm')->name('ondeestamos.form');
+
+Route::post('processar','App\Http\Controllers\FormController@processarForm')->name('processar.form');
+
+Route::get('welcome', function () {
+    return view('welcome');
+});
